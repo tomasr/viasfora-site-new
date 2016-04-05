@@ -1,0 +1,54 @@
+# Site settings
+title: Viasfora
+email: tomas@winterdom.com
+url: https://viasfora.com/
+description: "Add color to your Visual Studio editor!"
+meta_author: LastName FirstName
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 00ffde
+  primary-rgb: "0,255,222" #"128,179,255"
+  secondary: ff7d00 #FD6E8A
+  secondary-dark: 1e1e1e #A2122F
+
+# Footer settings
+footer:
+  copyright: Tomas Restrepo
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/viasfora
+  - title: github
+    url: https://github.com/tomasr/viasfora/issues
+
+# Credits content
+credits: 'Viasfora is created by <a href="http://winterdom.com/">Tomas Restrepo</a>'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+sass:
+  sass_dir: _sass
+  style: compressed
+

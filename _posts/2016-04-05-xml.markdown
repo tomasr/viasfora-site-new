@@ -1,0 +1,11 @@
+---
+layout: default
+index: 20
+date: 2016-04-05
+img: f-xml.png
+alt: image-alt
+category: XML Editor
+wikilink: https://github.com/tomasr/viasfora/wiki/XML-Editor-Extensions
+title: XML extensions
+---
+

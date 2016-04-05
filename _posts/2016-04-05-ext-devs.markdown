@@ -1,0 +1,11 @@
+---
+layout: default
+index: 30
+date: 2016-04-05
+img: f-ext-devs.png
+alt: image-alt
+category: Extension Development
+wikilink: https://github.com/tomasr/viasfora/wiki/Extension-Developers
+title: Tools for Developers
+---
+

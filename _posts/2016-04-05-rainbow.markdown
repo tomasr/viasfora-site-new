@@ -1,0 +1,11 @@
+---
+layout: default
+index: 1
+date: 2016-04-05
+img: f-rainbow.png
+alt: image-alt
+category: Text Editor
+wikilink: https://github.com/tomasr/viasfora/wiki/Rainbow-Braces
+title: Rainbow Braces
+---
+

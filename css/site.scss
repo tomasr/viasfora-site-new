@@ -1,0 +1,54 @@
+---
+---
+
+$global-dark: #1e1e1e;
+$global-primary: #00ffde;
+$global-secondary: #ff7d00;
+
+$navbar-default-color: #ffffff;
+$navbar-default-bg: $global-dark;
+$navbar-default-link-color: $global-primary;
+$navbar-default-link-hover-color: $global-secondary;
+
+$text-color: $global-dark;
+$link-color: $global-secondary;
+$link-hover-color: $global-primary;
+
+@import "bootstrap";
+
+
+.btn-dload {
+  font-size: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+  width: 80px;
+  height: 79px;
+  border: solid 2px $global-secondary;
+  border-radius: 100%;
+  color: $global-secondary;
+  background: transparent;
+  background: 0 0;
+  transition: all .3s ease-in-out;
+}
+
+.btn-dload:hover, .btn-dload:focus, .btn-dload:active {
+  color: #fff;
+  border: solid 2px #fff;
+  background: $global-secondary;;
+}
+
+// remove the gradient on the carousel controls
+.carousel-control.left, .carousel-control.right {
+  background-image: none
+}
+.carousel-dark {
+  background: $global-dark;
+  border: solid 2px $global-dark;
+  border-radius: 10px;
+}
+
+header .intro-text {
+  color: $global-dark;
+  padding-bottom: 10px;
+}
