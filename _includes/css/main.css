@@ -78,7 +78,7 @@ hr.star-primary:after {
 }
 
 hr.star-tertiary {
-    border-color: #{{ site.color.tertiary }};
+    border-color: #000;
 }
 
 hr.star-tertiary:after {
