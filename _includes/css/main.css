@@ -37,6 +37,7 @@ h6 {
 }
 
 hr.star-light,
+hr.star-tertiary,
 hr.star-primary {
     margin: 25px auto 30px;
     padding: 0;
@@ -47,6 +48,7 @@ hr.star-primary {
 }
 
 hr.star-light:after,
+hr.star-tertiary:after,
 hr.star-primary:after {
     content: "\f005";
     display: inline-block;
