@@ -75,6 +75,15 @@ hr.star-primary:after {
     background-color: #fff;
 }
 
+hr.star-tertiary {
+    border-color: #{{ site.color.tertiary }};
+}
+
+hr.star-tertiary:after {
+    color: #{{ site.color.tertiary }};
+    background-color: #000;
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -181,6 +190,11 @@ section h2 {
 section.success {
     color: #1e1e1e;
     background: #{{ site.color.primary }};
+}
+
+section.usage {
+    color: #000;
+    background: #{{ site.color.tertiary }};
 }
 
 @media(max-width:767px) {
