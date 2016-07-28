@@ -82,8 +82,8 @@ hr.star-tertiary {
 }
 
 hr.star-tertiary:after {
-    color: #{{ site.color.tertiary }};
-    background-color: #000;
+    background-color: #{{ site.color.tertiary }};
+    color: #000;
 }
 
 .img-centered {
